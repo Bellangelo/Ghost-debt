@@ -16,20 +16,11 @@ I still think both paths are useful. They also turned out to be the same mechani
 
 ## Absence as a reason
 
-The closest named idea is "organizational ghosts." In 2023, Jeffrey Bednar and Jacob Brown published [a paper with that title](https://doi.org/10.5465/amj.2022.0622). Former members become the picture of "who we are." People ask what they would have done.
+When I searched, I found [organizational ghosts](https://doi.org/10.5465/amj.2022.0622). Jeffrey Bednar and Jacob Brown write about former members who become the prototype of a company's values and identity. After they leave, people still meet them in memory. What would they have done? The values of the role model persist.
 
-That is close. Our joke was smaller.
+That is not what we were laughing about. Nobody in that conversation was trying to keep his values alive. They were using his name as a reason. We do this because he said so. He was not standing in for who we are. He was occupying a chair.
 
-Nobody in that conversation was asking what he would have wanted as our identity. They were using him as a reason. We do this because he said so. The ghost was not inspiring anyone. The ghost was occupying a chair.
-
-> A ghost is not someone people remember. A ghost is someone whose absence is still treated as a reason.
-
-There are two kinds.
-
-- Identity ghost: "What would they have done?"
-- Decision ghost: "We do this because they said so."
-
-The first still has a question in it. The second is a closed vote. This piece is about the second.
+Their ghosts still leave a question. Ours had already voted. A ghost, in the sense I mean here, is not someone people remember. Teams remember lots of people. A ghost is someone whose absence is still treated as a reason.
 
 ## How to be a ghost
 

@@ -1,6 +1,6 @@
 # Ghost debt
 
-How leftover decisions keep running after the person is gone.
+How influence outlives you, and the debt it leaves behind.
 
 We had a conversation with an old colleague. At some point they told him that we keep doing things because "he" (the one who left) said so. One of them jokingly said, "your ghost is taking decisions." We all laughed.
 
@@ -12,7 +12,7 @@ One path said: if being a ghost means you had influence in the company, then fig
 
 The other path said: if we accept that ghosts exist, and ghosts take decisions, and each decision leaves something behind, then ghosts leave something behind. I call it ghost debt.
 
-I still think both paths are useful. They also turned out to be the same mechanism. I will come back to that.
+I still think both paths are useful. They also turned out to be the same mechanism.
 
 ## Absence as a reason
 
@@ -58,9 +58,7 @@ I also got uneasy with it, for a reason the second path makes obvious. Wanting t
 
 [Technical debt](https://c2.com/doc/oopsla92.html) is a shortcut you took. You borrowed time, and you pay interest later. [Organizational debt](https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/), as Steve Blank used it, is the people and culture compromise made to "just get it done." Process debt is a workflow that helped once and now slows things down. [Chesterton's fence](https://www.gkc.org.uk/gkc/books/The_Thing.html) is the pause: do not remove a rule until you know why it was put there.
 
-Ghost debt sits next to these. It is a different object. It is the cost of a decision that kept operating after it lost its owner. The rule stayed. The context left with the person. The people who remain keep paying, because they cannot renegotiate with the author.
-
-Chesterton's fence says the fence may have a good reason. Ghost debt is what happens when that may still be true, and nobody left can explain the fence, own it, or retire it. Inheritance is normal. Un-owned inheritance is expensive.
+Ghost debt sits next to these. It is a different object. It is the cost of a decision that kept operating after it lost its owner. The rule stayed. The context left with the person. The people who remain keep paying, because they cannot renegotiate with the author. Chesterton's pause still applies: the fence may have a good reason. Ghost debt is when that may still be true, and nobody left can explain it, own it, or retire it. Inheritance is normal. Un-owned inheritance is expensive.
 
 The interest is boring, which is why it hides. Extra process that no longer matches the constraint it was built for. Extra fear of touching a thing with someone's name on it. Extra meetings to decode a choice. Extra inability to change, because changing it feels like disloyalty rather than work.
 
@@ -76,9 +74,7 @@ I keep seeing it in four forms.
 
 A person who left can leave a constraint that still saves you. Ghost debt is not an argument for deleting history. It is an argument for noticing when history is still voting, and whether anyone present can recast that vote.
 
-It looks the same in code. After this method you need to call this method, and nothing in the type system says so. The comment says "always." The tests only pass if you know the order. The person who knew why has left. The compiler did not get the memo.
-
-The rest of the list is ordinary if you have lived in a codebase long enough. A public `init()` after construction, because the object is a lie until a second call. A feature flag that has to stay off, or on, and nobody will own turning it the other way. A module everyone is told not to touch. A pairing of save and reindex that eight call sites remember and the ninth does not. An ADR with a name in it and no current owner. Tests that fail if you use the "official" API and pass if you use the back door.
+It looks the same in code. After this method you need to call this method, and nothing in the type system says so. The comment says "always." The tests only pass if you know the order. The person who knew why has left. The compiler did not get the memo. Same shape: a module nobody is allowed to touch, or a flag that has to stay off, with no living owner for either.
 
 Those are requirements the type system does not know. They are still deciding.
 
@@ -104,16 +100,9 @@ If you live with someone else's ghost: whose name still ends debates? Which rule
 
 Then the decision has three honest endings. Keep it, and give it a living owner. Write the why, if the fence is still useful and the original reason is gone. Or retire it, if the constraint left with the person.
 
-I call looking for these leftovers an exorcism. You name the ghost. You do not cast it out. You collect candidates. Someone who still works here says whether each one is ghost debt, leftover on purpose, or something that needs a why.
+An [exorcism](https://github.com/Bellangelo/ghost-debt/tree/main/.agents/skills/exorcism) names those leftovers. It does not delete them. Someone who still works here decides.
 
-- Is this still required? If yes, what is the why, and who owns it now?
-- If we stopped doing the ritual, what would break?
-- Keep, encode the contract, or retire it?
-- If this is not ghost debt, what is it?
-
-A room can run that pass with [9 Whys](https://www.liberatingstructures.com/nine-whys) until you hit a living reason or silence, then [Min Specs](https://www.liberatingstructures.com/min-specs) to strip folklore from the constraint that still has to stay. An agent can hunt the codebase for candidates. The skill lives in [github.com/Bellangelo/ghost-debt](https://github.com/Bellangelo/ghost-debt) under [`.agents/skills/exorcism/`](https://github.com/Bellangelo/ghost-debt/tree/main/.agents/skills/exorcism). It should stop at the questions. The living still decide.
-
-That pass is a bit rude. It replaces loyalty to a name with loyalty to a reason. Most leftover decisions can survive that. The ones that cannot were already debt.
+Asking for a why instead of a name is a bit rude. Most leftover decisions can survive that. The ones that cannot were already debt.
 
 We laughed because it was funny. It was accurate because the chair was still occupied. If you mattered, you will leave a ghost. The useful question, for me, is whether the people after you inherit a reason, or only a name.
 
@@ -123,4 +112,3 @@ We laughed because it was funny. It was accurate because the chair was still occ
 - Ward Cunningham, ["The WyCash Portfolio Management System,"](https://c2.com/doc/oopsla92.html) OOPSLA experience report, 1992. The source of the technical debt metaphor.
 - Steve Blank, ["Organizational Debt is like Technical debt – but worse,"](https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/) 19 May 2015.
 - G. K. Chesterton, *The Thing* (London: Sheed & Ward, 1929), chapter ["The Drift from Domesticity."](https://www.gkc.org.uk/gkc/books/The_Thing.html)
-- Henri Lipmanowicz and Keith McCandless, [9 Whys](https://www.liberatingstructures.com/nine-whys) and [Min Specs](https://www.liberatingstructures.com/min-specs), Liberating Structures. See also *The Surprising Power of Liberating Structures* (Liberating Structures Press, 2014).

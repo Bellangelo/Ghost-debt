@@ -27,20 +27,21 @@ Do not change code unless the user asks after answering the questions.
 
 ## Hunt
 
-Search for requirements that exist only as ritual:
+Comments that say always / never / must / don't, or that name a person, are the easy radar. Use them. They are not the whole hunt. The original example is call order with no English at all.
 
-1. **Call order.** Method A is almost always followed by method B at call sites, with no type, assertion, or wrapper that forces the pair.
+1. **Call order.** Method A is almost always followed by method B at call sites, with no type, assertion, or wrapper that forces the pair. Do not wait for a comment. Bound the hunt: one path, one PR, or a handful of hot methods (`save`, `persist`, `open`, `init`, `close`, `flush`, `commit`), not every `save` in a large tree. Sample those call sites. If most sites pair A with B and one does not, that pair is a candidate. Public `init()` after construction is the same shape. Paired side effects (save without reindex, open without close, start without stop) are this item, not a second hunt.
 2. **Init and teardown protocols.** Objects that are unsafe until a second call (`init`, `setup`, `bind`, `load`, `commit`, `flush`, `close`).
 3. **Always / never / must / don't comments.** Especially comments that name a person, a ticket, or "don't remove this."
-4. **Paired side effects.** Save without index update, open without close, start without stop, set flag A without flag B.
-5. **Tests as the only spec.** Tests that encode order or hidden invariants the production API does not.
-6. **Fossil branches.** Feature flags, env vars, or dead config that still have to be set a certain way.
-7. **Copy-paste setup.** The same three lines before every use of a type, never extracted, never documented as a contract.
-8. **Ownerless decision records.** ADRs, RFCs, or "don't touch this module" notes that still bind the tree and name a person who is no longer the owner.
+4. **Tests as the only spec.** Tests that encode order or hidden invariants the production API does not.
+5. **Fossil branches.** Feature flags, env vars, or dead config that still have to be set a certain way.
+6. **Copy-paste setup.** The same three lines before every use of a type, never extracted, never documented as a contract.
+7. **Ownerless decision records.** Only when the record still binds the tree *and* the spec is a person, a stale "do not revisit," or no current owner. A living ADR, RFC, or engineering guide that says "must not" with a why and no departed name is owned. Skip it.
+
+If a first pass only found English comments, say that under Scope. Temporal coupling is then undercounted. Do not pad the report with living docs to look complete.
 
 For each candidate, record evidence: file, symbol, call sites or comments, and what is missing (type, wrapper, assertion, written why, named owner).
 
-Skip: ordinary complexity, named design patterns that are still owned, TODOs with a current owner, and shortcuts that are technical debt with a known author still around. Ghost debt is **unowned inheritance**, not "this is messy."
+Skip: ordinary complexity, named design patterns that are still owned, TODOs with a current owner, shortcuts that are technical debt with a known author still around, and current architecture docs. Ghost debt is **unowned inheritance**, not "this is messy," and not "this document is strict."
 
 If git history is available and cheap, a last-touch author who has left is supporting evidence, not proof. Do not invent who left.
 
@@ -53,6 +54,7 @@ Use this shape. Keep findings as candidates.
 
 ## Scope
 [paths or diff examined]
+[If the hunt only found English comments, say temporal coupling is undercounted.]
 
 ## Candidates
 
@@ -60,7 +62,7 @@ Use this shape. Keep findings as candidates.
 - Type: temporal coupling | orphaned why | cited authority | fossil process | taboo
 - Where: `path` `symbol`
 - What the code still requires: [the ritual]
-- Why it looks unowned: [no type / no assertion / comment is the only spec / name in a comment]
+- Why it looks unowned: [no living owner / no living why / comment is the only spec / a name in a comment]
 - Evidence: [call sites or quotes]
 - Confidence: low | medium | high
 

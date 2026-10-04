@@ -14,13 +14,13 @@ The other path said: if we accept that ghosts exist, and ghosts take decisions, 
 
 I still think both paths are useful. They also turned out to be the same mechanism.
 
-## Absence as a reason
+## What I found when I searched
 
-When I searched, I found [organizational ghosts](https://doi.org/10.5465/amj.2022.0622). Jeffrey Bednar and Jacob Brown write about former members who become the prototype of a company's values and identity. After they leave, people still meet them in memory. What would they have done? The values of the role model persist.
+I found [organizational ghosts](https://doi.org/10.5465/amj.2022.0622). Jeffrey Bednar and Jacob Brown write about former members who become the prototype of a company's values and identity. After they leave, people still meet them in memory. What would they have done? The values of the role model persist.
 
 That is not what we were laughing about. Nobody in that conversation was trying to keep his values alive. They were using his name as a reason. We do this because he said so. He was not standing in for who we are. He was occupying a chair.
 
-Their ghosts still leave a question. Ours had already voted. A ghost, in the sense I mean here, is not someone people remember. Teams remember lots of people. A ghost is someone whose absence is still treated as a reason.
+Bednar and Brown's ghosts still leave a question. The joke did not. A ghost, in the sense I mean here, is not someone people remember. Teams remember lots of people. A ghost is someone whose decision still counts as a reason, and nobody left can argue with it.
 
 ## How to be a ghost
 
@@ -51,7 +51,7 @@ I also got uneasy with it, for a reason the second path makes obvious. Wanting t
 
 Ghost debt sits next to these. It is a different object. It is the cost of a decision that kept operating after it lost its owner. The rule stayed. The context left with the person. The people who remain keep paying, because they cannot renegotiate with the author. Chesterton's pause still applies: the fence may have a good reason. Ghost debt is when that may still be true, and nobody left can explain it, own it, or retire it. Inheritance is normal. Un-owned inheritance is expensive.
 
-The interest is boring, which is why it hides. Extra process that no longer matches the constraint it was built for. Extra fear of touching a thing with someone's name on it. Extra meetings to decode a choice. Extra inability to change, because changing it feels like disloyalty rather than work.
+The interest is boring, which is why it hides. Extra process that no longer matches the constraint it was built for. Extra fear of touching the leftover. Extra meetings to decode a choice. Extra inability to change, because changing it feels like disloyalty rather than work.
 
 I keep seeing it in four forms.
 
@@ -72,9 +72,9 @@ This is the part I did not see when we were still only laughing.
 
 You decide. You encode it. You leave the room. The encoding keeps voting.
 
-If the encoding still has a living owner and a living why, I would call that legacy. If it only has a name, it is ghost debt.
+If the encoding still has a living owner and a living why, I would call that legacy. If it has neither, it is ghost debt. A name attached to the rule is enough to spot it. It is not required. "We always do it this way" is the same object.
 
-The career advice and the warning are the same skill used with different attachments. The way to become a useful ghost is not to make yourself harder to remove. It is to make the decision easier to re-own.
+The career path and the warning are the same pipeline. The way to become a useful ghost is not to make yourself harder to remove. It is to make the decision easier to re-own.
 
 Leave reasons, not only decisions. Leave owners, not only artifacts. Leave the conditions under which you would reverse the call, not only the default.
 
@@ -84,15 +84,15 @@ A decision that cannot be re-opened is not a strong decision. It is a decision t
 
 If you want your judgment to last: would this still make sense if nobody could ask me? Did I write down the why, and when I would reverse it? Who owns this after I leave the room, not after I leave the company?
 
-If you live with someone else's ghost: whose name still ends debates? Which rules have a name and no owner? What would we have to know to retire this, and do we still know it?
+If you live with someone else's ghost: which leftover decisions still end debates? Which rules have no owner and no why? What would we have to know to retire this, and do we still know it?
 
 Then the decision has three honest endings. Keep it, and give it a living owner. Write the why, if the fence is still useful and the original reason is gone. Or retire it, if the constraint left with the person.
 
 An [exorcism](https://github.com/Bellangelo/ghost-debt/tree/main/.agents/skills/exorcism) names those leftovers. It does not delete them. Someone who still works here decides.
 
-Asking for a why instead of a name is a bit rude. Most leftover decisions can survive that. The ones that cannot were already debt.
+Asking for a why, when the room has been using a leftover, is a bit rude. Most leftover decisions can survive that. The ones that cannot were already debt.
 
-We laughed because it was funny. It was accurate because the chair was still occupied. If you mattered, you will leave a ghost. The useful question, for me, is whether the people after you inherit a reason, or only a name.
+We laughed because it was funny. It was accurate because the chair was still occupied. If you mattered, you will leave a ghost. The useful question, for me, is whether the people after you inherit a reason they can recast, or a decision nobody owns.
 
 ## References
 

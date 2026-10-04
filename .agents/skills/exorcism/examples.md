@@ -34,6 +34,15 @@ Question for the living: Is Maria's constraint still true? Who owns this timeout
 
 Has a why and a living owner. Skip, or mention only as a contrast.
 
+## Living ADR (not ghost debt)
+
+```text
+# ADR 00013: Cross-database operations go through DomainIterator.
+# See docs/engineering/database-access.md (owned by platform).
+```
+
+A why, a current doc, no departed name as the spec. Skip.
+
 ## Ownerless ADR
 
 ```text

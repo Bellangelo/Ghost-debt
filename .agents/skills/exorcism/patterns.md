@@ -10,11 +10,14 @@ Signs:
 
 - `start` / `finish`, `begin` / `commit`, `open` / `close`, `lock` / `unlock`
 - `save()` then a separate `reindex()` / `notify()` / `touch()` at most call sites
+- Open without close, start without stop, set flag A without flag B
 - Builder or entity that explodes unless `build()` / `hydrate()` / `validate()` ran
 - Public `init()` after construction
 - Docs or comments: "always call X after Y", "must be called before", "don't forget"
 
 Stronger candidate when some call sites omit the second call and tests or production only work by accident.
+
+Grep for "always call" will miss most of these. Hunt from the method, not from the comment: bound the search to a path, a PR, or a handful of methods, list those call sites, read the next few lines, and count how often a second call appears.
 
 ## Orphaned why
 
@@ -39,6 +42,8 @@ Signs:
 - ADRs or RFCs that still constrain the design and name a writer who has left, with no current owner
 
 A ticket ID with a living owner is not ghost debt. A name in a comment with no current owner is.
+
+A current ADR or RFC with a why, still maintained, and no departed name is not ghost debt. "Must not" in a living engineering guide is a contract until a living person says otherwise.
 
 ## Fossil process
 
@@ -68,3 +73,4 @@ Signs:
 - An encoded contract (type, mutex, destructor, transaction, linter, assertion)
 - Complexity that is still argued about in review
 - Style disagreements
+- Living architecture docs and decision records that still have a why and no leftover person as the spec

@@ -2,8 +2,6 @@
 
 Ghost debt is a decision that still operates after it lost its owner.
 
-Staff work is encoding judgment so the organisation does not need you in the room. That encoding is the influence. Ghost debt is what happens when the encoding still votes and nobody left can recast it.
-
 In a company it sounds like "we do this because he said so." In code it looks the same: after this method you need to call this method, and nothing in the type system says so. The rule stayed. The why left with the person.
 
 The essay is [Ghost debt](https://github.com/Bellangelo/ghost-debt/blob/main/article.md).

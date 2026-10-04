@@ -1,5 +1,7 @@
 # Ghost debt
 
+How leftover decisions keep running after the person is gone.
+
 We had a conversation with an old colleague. At some point they told him that we keep doing things because "he" (the one who left) said so. One of them jokingly said, "your ghost is taking decisions." We all laughed.
 
 I loved this metaphor. I searched immediately whether this had been said before, or whether there were relevant concepts. I found a few things. Nothing sat on the exact line of that joke.
@@ -10,56 +12,51 @@ One path said: if being a ghost means you had influence in the company, then fig
 
 The other path said: if we accept that ghosts exist, and ghosts take decisions, and each decision leaves something behind, then ghosts leave something behind. I call it ghost debt.
 
-I still think both paths are useful. They also turned out to be the same mechanism. I will come back to that.
+I still think both paths are useful. They also turned out to be the same job.
 
-## What I found when I searched
+Staff work is encoding judgment so the organisation does not need you in the room. That encoding is the influence. Ghost debt is what happens when the encoding still votes and nobody left can recast it.
 
-The closest named idea is "organizational ghosts." In 2023, Jeffrey Bednar and Jacob Brown published [a paper with that title](https://doi.org/10.5465/amj.2022.0622) in the *Academy of Management Journal*. They write about former members who become the picture of "who we are," and who keep affecting people after they leave. People ask "what would they have done?" or imagine them in the room. The famous versions are Disney, Chanel, Jobs, Sam Walton. The paper itself is wider than founders. Long tenure, high visibility, competence plus warmth, then stories, practices, and objects that keep the person around.
+## Absence as a reason
 
-That is close. I still think our joke was pointing at something smaller.
+The closest named idea is "organizational ghosts." In 2023, Jeffrey Bednar and Jacob Brown published [a paper with that title](https://doi.org/10.5465/amj.2022.0622). Former members become the picture of "who we are." People ask what they would have done.
 
-Their ghosts are mostly admired leaders. In our conversation, nobody was asking what he would have wanted as our identity. They were using him as a reason. We do this because he said so. The ghost was not inspiring anyone. The ghost was occupying a chair.
+That is close. Our joke was smaller.
 
-I started using a simple test. A ghost is not someone people remember. Teams remember lots of people. A ghost is someone whose absence is still treated as a reason.
+Nobody in that conversation was asking what he would have wanted as our identity. They were using him as a reason. We do this because he said so. The ghost was not inspiring anyone. The ghost was occupying a chair.
 
-There is a second split, and it is the one I care about for this piece:
+> A ghost is not someone people remember. A ghost is someone whose absence is still treated as a reason.
+
+There are two kinds.
 
 - Identity ghost: "What would they have done?"
 - Decision ghost: "We do this because they said so."
 
-The first still has a question in it. The second is a closed vote. This article is about the second.
+The first still has a question in it. The second is a closed vote. Architecture lives in the second.
 
-```mermaid
-flowchart LR
-  identity["Identity ghost<br/>What would they have done?"]
-  decision["Decision ghost<br/>They said so"]
-```
+## You already encode, or the system forgets you
 
-## Path 1: how to be a ghost
+Influence that lasts does not start at the goodbye lunch. It starts on the day people stop arguing with the idea and start invoking you. Then it only lasts if you put it somewhere other than your head.
 
-If influence means your judgment still operates when you are not there, then "how to be a ghost" is a description of influence that worked.
+You make a judgment others cannot easily reverse. A boundary. A hiring bar. A "we never do that." You encode it in language other people reuse. In defaults, interfaces, checklists, CI, taboos. Then you leave the room. A meeting, a team, a company. The encoding keeps voting.
 
-It does not start at the goodbye lunch. It starts earlier, while you are still employed, on the day people stop arguing with the idea and start invoking you.
+Four things survive a person particularly well:
 
-The sequence looks like this.
+- Stories: "X would hate this."
+- Practices: the review that still happens on Friday.
+- Defaults: the template, the named meeting, the lint rule.
+- Forbidden moves: the thing nobody tries because somebody once forbade it.
 
-You make a judgment others cannot easily reverse. An architecture. A hiring bar. A "we never do that." You encode it, and not only in your head. In language other people reuse. In defaults, tools, checklists, meetings, taboos. Then you leave the room. A meeting, a team, a company. The encoding keeps voting.
-
-Four things survive a person particularly well: stories ("X would hate this"), practices (the review that still happens on Friday), defaults (the template, the named meeting, the lint rule), and forbidden moves (the thing nobody tries because somebody once forbade it).
-
-Visibility helps. Repeated judgment helps. Trust helps. What lasts is the encoding. If people need to remember you for the thing to continue, it is fragile. If it is built into how work moves, it continues.
+If people need to remember you for the thing to continue, it is fragile. If it is built into how work moves, it continues.
 
 There is a tell that you are already a ghost on the payroll. People say your name instead of the why. It feels like respect. Sometimes it is. It is also the moment the decision starts to travel without you, which means it can stop being yours to change.
 
-I liked this path because it is practical. If you want influence, you can look at what actually remains after someone leaves, and work backwards.
+Wanting that is not a career hack. It is the job. Wanting it without a living why is how you occupy chairs you will never sit in again.
 
-I also got uneasy with it, for a reason the second path makes obvious. Wanting to be a ghost is wanting your judgment to outlive your calendar. That is how you occupy chairs you will never sit in again.
-
-## Path 2: ghost debt
+## Un-owned inheritance
 
 [Technical debt](https://c2.com/doc/oopsla92.html) is a shortcut you took. You borrowed time, and you pay interest later. [Organizational debt](https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/), as Steve Blank used it, is the people and culture compromise made to "just get it done." Process debt is a workflow that helped once and now slows things down. [Chesterton's fence](https://www.gkc.org.uk/gkc/books/The_Thing.html) is the pause: do not remove a rule until you know why it was put there.
 
-Ghost debt sits next to these and is a different object. It is the cost of a decision that kept operating after it lost its owner. The rule stayed. The context left with the person. The people who remain keep paying, because they cannot renegotiate with the author.
+Ghost debt sits next to these. It is a different object. It is the cost of a decision that kept operating after it lost its owner. The rule stayed. The context left with the person. The people who remain keep paying, because they cannot renegotiate with the author.
 
 Chesterton's fence says the fence may have a good reason. Ghost debt is what happens when that may still be true, and nobody left can explain the fence, own it, or retire it. Inheritance is normal. Un-owned inheritance is expensive.
 
@@ -67,35 +64,35 @@ The interest is boring, which is why it hides. Extra process that no longer matc
 
 I keep seeing it in four forms.
 
-| Type | What you hear | What you are paying for |
-| --- | --- | --- |
-| Orphaned why | We always do it this way | A rule whose original constraint is gone |
-| Cited authority | He said so | A name doing the work of a reason |
-| Fossil process | We still have this meeting | A gate built for their team, scale, or incident |
-| Taboo without a priest | We don't do that here | A forbidden move nobody left can un-forbid |
+**Orphaned why.** "We always do it this way." The checklist survived. The original reason did not. Maybe the vendor is gone. Maybe the scale is different. Maybe the risk that created the rule is gone.
 
-Some of this is unpaid respect for a good fence. A person who left can leave a constraint that still saves you. Ghost debt is not an argument for deleting history. It is an argument for noticing when history is still voting, and whether anyone present can recast that vote.
+**Cited authority.** "He said so." A name ends the discussion. The name is doing the work a reason should do.
 
-It looks the same in code. After this method you need to call this method, and nothing in the type system says so. The comment says "always." The tests only pass if you know the order. The person who knew why has left. The compiler did not get the memo.
+**Fossil process.** "We still have this meeting." A weekly call, a two-stage approval, a branching strategy. It made sense in their constraints: their team size, their incident, their regulator. The world moved. The process did not.
 
-## The two paths are the same pipeline
+**Taboo without a priest.** "We don't do that here." Nobody ships on Fridays. Nobody talks to that customer. Nobody rewrites that service. The priest is gone. The taboo remains. You cannot test it without feeling like you are vandalizing something.
+
+A person who left can leave a constraint that still saves you. Ghost debt is not an argument for deleting history. It is an argument for noticing when history is still voting, and whether anyone present can recast that vote.
+
+## It looks the same in the codebase
+
+After this method you need to call this method, and nothing in the type system says so. The comment says "always." The tests only pass if you know the order. The person who knew why has left. The compiler did not get the memo.
+
+You already know the rest of the list.
+
+A public `init()` after construction, because the object is a lie until a second call. A feature flag that has to stay off, or on, and nobody will own turning it the other way. A module everyone is told not to touch. A pairing of save and reindex that eight call sites remember and the ninth does not. An ADR with a name in it and no current owner. Tests that fail if you use the "official" API and pass if you use the back door.
+
+Those are requirements the type system does not know. They are still deciding.
+
+## Decide. Encode. Leave.
 
 This is the part I did not see when we were still only laughing.
 
-Decide. Encode. Leave. The encoding keeps voting.
+You decide. You encode it. You leave the room. The encoding keeps voting.
 
 If the encoding still has a living owner and a living why, I would call that legacy. If it only has a name, it is ghost debt.
 
-```mermaid
-flowchart LR
-  decide[You decide] --> encode[You encode it]
-  encode --> leave[You leave the room]
-  leave --> vote[It keeps voting]
-  vote --> legacy[Legacy:<br/>owner and why]
-  vote --> debt[Ghost debt:<br/>only a name]
-```
-
-The career advice and the warning are the same skill used with different attachments. The way to become a useful ghost is not to make yourself harder to remove. It is to make the decision easier to re-own.
+The way to leave useful influence is not to make yourself harder to remove. It is to make the decision easier to re-own.
 
 Leave reasons, not only decisions. Leave owners, not only artifacts. Leave the conditions under which you would reverse the call, not only the default.
 
@@ -103,24 +100,24 @@ A decision that cannot be re-opened is not a strong decision. It is a decision t
 
 ## Questions for the living
 
-If you want your judgment to last: would this still make sense if nobody could ask me? Did I write down the why, and when I would reverse it? Who owns this after I leave the room, not after I leave the company?
+One pass over the decisions that still have a person in them is enough.
 
-If you live with someone else's ghost: whose name still ends debates? Which rules have a name and no owner? What would we have to know to retire this, and do we still know it?
+If you are about to encode something: would this still make sense if nobody could ask me? Did I write down the why, and when I would reverse it? Who owns this after I leave the room, not after I leave the company?
 
-I would not turn this into a program. One pass over the decisions that still have a person in them is enough. Keep it, because the fence is still doing work, and now it has an owner. Rewrite the why, because the fence is useful and the original reason is gone. Retire it, because the constraint left with the person.
+If you already live with someone else's encoding: whose name still ends debates? Which rules have a name and no owner? What would we have to know to retire this, and do we still know it?
 
-That pass needs a name, because otherwise people start deleting. I call the pass an **exorcism**. An exorcism here is naming a ghost, not casting it out. You collect candidates. A living person answers whether each one is ghost debt, leftover on purpose, or something that needs a why.
+Then pick one.
 
-The questions at the end are for the people who still work here:
+Keep it, because the fence is still doing work, and now it has an owner. Encode the contract into the work, because the constraint is real and a comment is not a type. Retire it, because the constraint left with the person.
+
+I call that pass an exorcism. An exorcism here is naming a ghost, not casting it out. You collect candidates. A living person answers whether each one is ghost debt, leftover on purpose, or something that needs a why.
 
 - Is this still required? If yes, what is the why, and who owns it now?
 - If we stopped doing the ritual, what would break?
-- Keep, encode the contract into the work, or retire it?
+- Keep, encode the contract, or retire it?
 - If this is not ghost debt, what is it?
 
-A living person should answer whether these are ghost debts or we need clarifications about potential ghost debts.
-
-A room can run the same pass without an agent. [9 Whys](https://www.liberatingstructures.com/nine-whys) recovers the purpose until you hit a living reason or silence. Silence is the ghost. [Min Specs](https://www.liberatingstructures.com/min-specs) then strips the folklore from the constraint that still has to stay. The agent skill in `.agents/skills/exorcism/` does the hunt and stops at the questions. The living still decide.
+A room can run that pass with [9 Whys](https://www.liberatingstructures.com/nine-whys) until you hit a living reason or silence, then [Min Specs](https://www.liberatingstructures.com/min-specs) to strip folklore from the constraint that still has to stay. An agent can hunt the codebase for candidates. It should stop at the questions. The living still decide.
 
 That pass is a bit rude. It replaces loyalty to a name with loyalty to a reason. Most leftover decisions can survive that. The ones that cannot were already debt.
 

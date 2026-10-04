@@ -36,6 +36,7 @@ Search for requirements that exist only as ritual:
 5. **Tests as the only spec.** Tests that encode order or hidden invariants the production API does not.
 6. **Fossil branches.** Feature flags, env vars, or dead config that still have to be set a certain way.
 7. **Copy-paste setup.** The same three lines before every use of a type, never extracted, never documented as a contract.
+8. **Ownerless decision records.** ADRs, RFCs, or "don't touch this module" notes that still bind the tree and name a person who is no longer the owner.
 
 For each candidate, record evidence: file, symbol, call sites or comments, and what is missing (type, wrapper, assertion, written why, named owner).
 

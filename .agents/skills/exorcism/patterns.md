@@ -36,6 +36,7 @@ Signs:
 - Comments: "Alice said", "per Bob", "don't change this, [name] will be angry"
 - Commit messages used as the only explanation and the author is gone
 - "As discussed" with no link to a current owner
+- ADRs or RFCs that still constrain the design and name a writer who has left, with no current owner
 
 A ticket ID with a living owner is not ghost debt. A name in a comment with no current owner is.
 

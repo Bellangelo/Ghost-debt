@@ -34,6 +34,17 @@ Question for the living: Is Maria's constraint still true? Who owns this timeout
 
 Has a why and a living owner. Skip, or mention only as a contrast.
 
+## Ownerless ADR
+
+```text
+# ADR 0014: Never call BillingService from Checkout.
+# Alice, 2019. Do not revisit.
+```
+
+Candidate: the boundary may still be right. The spec is a name and a date. Confidence medium until someone current owns the constraint.
+
+Question for the living: Is this still required? Who owns this boundary now? Keep it in a current ADR, encode it in the module graph, or retire it?
+
 ## Tests as the only spec
 
 A test asserts that `close()` after `open()` without `flush()` loses writes. Production `close()` does not flush. The test is the priest.

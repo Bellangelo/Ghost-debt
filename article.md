@@ -117,7 +117,7 @@ I call that pass an exorcism. An exorcism here is naming a ghost, not casting it
 - Keep, encode the contract, or retire it?
 - If this is not ghost debt, what is it?
 
-A room can run that pass with [9 Whys](https://www.liberatingstructures.com/nine-whys) until you hit a living reason or silence, then [Min Specs](https://www.liberatingstructures.com/min-specs) to strip folklore from the constraint that still has to stay. An agent can hunt the codebase for candidates. It should stop at the questions. The living still decide.
+A room can run that pass with [9 Whys](https://www.liberatingstructures.com/nine-whys) until you hit a living reason or silence, then [Min Specs](https://www.liberatingstructures.com/min-specs) to strip folklore from the constraint that still has to stay. An agent can hunt the codebase for candidates. The skill lives in [github.com/Bellangelo/ghost-debt](https://github.com/Bellangelo/ghost-debt) under [`.agents/skills/exorcism/`](https://github.com/Bellangelo/ghost-debt/tree/main/.agents/skills/exorcism). It should stop at the questions. The living still decide.
 
 That pass is a bit rude. It replaces loyalty to a name with loyalty to a reason. Most leftover decisions can survive that. The ones that cannot were already debt.
 

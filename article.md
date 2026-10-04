@@ -1,4 +1,4 @@
-# Your ghost is taking decisions
+# Ghost debt
 
 We had a conversation with an old colleague. At some point they told him that we keep doing things because "he" (the one who left) said so. One of them jokingly said, "your ghost is taking decisions." We all laughed.
 
@@ -14,7 +14,7 @@ I still think both paths are useful. They also turned out to be the same mechani
 
 ## What I found when I searched
 
-The closest named idea is "organizational ghosts." In 2023, Jeffrey Bednar and Jacob Brown published a paper with that title in the Academy of Management Journal. They write about former members who become the picture of "who we are," and who keep affecting people after they leave. People ask "what would they have done?" or imagine them in the room. The famous versions are Disney, Chanel, Jobs, Sam Walton. The paper itself is wider than founders. Long tenure, high visibility, competence plus warmth, then stories, practices, and objects that keep the person around.
+The closest named idea is "organizational ghosts." In 2023, Jeffrey Bednar and Jacob Brown published [a paper with that title](https://doi.org/10.5465/amj.2022.0622) in the *Academy of Management Journal*. They write about former members who become the picture of "who we are," and who keep affecting people after they leave. People ask "what would they have done?" or imagine them in the room. The famous versions are Disney, Chanel, Jobs, Sam Walton. The paper itself is wider than founders. Long tenure, high visibility, competence plus warmth, then stories, practices, and objects that keep the person around.
 
 That is close. I still think our joke was pointing at something smaller.
 
@@ -57,7 +57,7 @@ I also got uneasy with it, for a reason the second path makes obvious. Wanting t
 
 ## Path 2: ghost debt
 
-Technical debt is a shortcut you took. You borrowed time, and you pay interest later. Organizational debt, as Steve Blank used it, is the people and culture compromise made to "just get it done." Process debt is a workflow that helped once and now slows things down. Chesterton's fence is the pause: do not remove a rule until you know why it was put there.
+[Technical debt](https://c2.com/doc/oopsla92.html) is a shortcut you took. You borrowed time, and you pay interest later. [Organizational debt](https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/), as Steve Blank used it, is the people and culture compromise made to "just get it done." Process debt is a workflow that helped once and now slows things down. [Chesterton's fence](https://www.gkc.org.uk/gkc/books/The_Thing.html) is the pause: do not remove a rule until you know why it was put there.
 
 Ghost debt sits next to these and is a different object. It is the cost of a decision that kept operating after it lost its owner. The rule stayed. The context left with the person. The people who remain keep paying, because they cannot renegotiate with the author.
 
@@ -125,3 +125,11 @@ A room can run the same pass without an agent. [9 Whys](https://www.liberatingst
 That pass is a bit rude. It replaces loyalty to a name with loyalty to a reason. Most leftover decisions can survive that. The ones that cannot were already debt.
 
 We laughed because it was funny. It was accurate because the chair was still occupied. If you mattered, you will leave a ghost. The useful question, for me, is whether the people after you inherit a reason, or only a name.
+
+## References
+
+- Jeffrey S. Bednar and Jacob A. Brown, ["Organizational Ghosts: How 'Ghostly Encounters' Enable Former Leaders to Influence Current Organizational Members,"](https://doi.org/10.5465/amj.2022.0622) *Academy of Management Journal* 67, no. 3 (June 2024). Published online 30 November 2023. DOI: [10.5465/amj.2022.0622](https://doi.org/10.5465/amj.2022.0622).
+- Ward Cunningham, ["The WyCash Portfolio Management System,"](https://c2.com/doc/oopsla92.html) OOPSLA experience report, 1992. The source of the technical debt metaphor.
+- Steve Blank, ["Organizational Debt is like Technical debt – but worse,"](https://steveblank.com/2015/05/19/organizational-debt-is-like-technical-debt-but-worse/) 19 May 2015.
+- G. K. Chesterton, *The Thing* (London: Sheed & Ward, 1929), chapter ["The Drift from Domesticity."](https://www.gkc.org.uk/gkc/books/The_Thing.html)
+- Henri Lipmanowicz and Keith McCandless, [9 Whys](https://www.liberatingstructures.com/nine-whys) and [Min Specs](https://www.liberatingstructures.com/min-specs), Liberating Structures. See also *The Surprising Power of Liberating Structures* (Liberating Structures Press, 2014).

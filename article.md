@@ -120,7 +120,7 @@ The questions at the end are for the people who still work here:
 
 A living person should answer whether these are ghost debts or we need clarifications about potential ghost debts.
 
-A room can run the same pass without an agent. [9 Whys](https://www.liberatingstructures.com/nine-whys) recovers the purpose until you hit a living reason or silence. Silence is the ghost. [Min Specs](https://www.liberatingstructures.com/min-specs) then strips the folklore from the constraint that still has to stay. The agent skill in this repo does the hunt and stops at the questions. The living still decide.
+A room can run the same pass without an agent. [9 Whys](https://www.liberatingstructures.com/nine-whys) recovers the purpose until you hit a living reason or silence. Silence is the ghost. [Min Specs](https://www.liberatingstructures.com/min-specs) then strips the folklore from the constraint that still has to stay. The agent skill in `.agents/skills/exorcism/` does the hunt and stops at the questions. The living still decide.
 
 That pass is a bit rude. It replaces loyalty to a name with loyalty to a reason. Most leftover decisions can survive that. The ones that cannot were already debt.
 

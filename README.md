@@ -10,6 +10,6 @@ The skill is called **exorcism**. It names the ghost. It does not cast it out. I
 
 ## Use the skill
 
-In this repo, or copy `.cursor/skills/exorcism/` into another project.
+In this repo, or copy `.agents/skills/exorcism/` into another project.
 
 Ask the agent to run an exorcism on a path, a PR, or the whole tree. It should return candidates, not a verdict, and finish with questions a person can answer.

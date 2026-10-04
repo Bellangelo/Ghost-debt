@@ -1,10 +1,12 @@
-# ghost-debt
+# Ghost debt
+
+How influence outlives you, and the debt it leaves behind.
 
 Ghost debt is a decision that still operates after it lost its owner.
 
 In a company it sounds like "we do this because he said so." In code it looks the same: after this method you need to call this method, and nothing in the type system says so. The rule stayed. The why left with the person.
 
-The essay is [Ghost debt](https://github.com/Bellangelo/ghost-debt/blob/main/article.md).
+The essay is [here](https://github.com/Bellangelo/ghost-debt/blob/main/article.md).
 
 ## Exorcism
 

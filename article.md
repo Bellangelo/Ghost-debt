@@ -55,13 +55,10 @@ The interest is boring, which is why it hides. Extra process that no longer matc
 
 I keep seeing it in four forms.
 
-**Orphaned why.** "We always do it this way." The checklist survived. The original reason did not. Maybe the vendor is gone. Maybe the scale is different. Maybe the risk that created the rule is gone.
-
-**Cited authority.** "He said so." A name ends the discussion. The name is doing the work a reason should do.
-
-**Fossil process.** "We still have this meeting." A weekly call, a two-stage approval, a branching strategy. It made sense in their constraints: their team size, their incident, their regulator. The world moved. The process did not.
-
-**Taboo without a priest.** "We don't do that here." Nobody ships on Fridays. Nobody talks to that customer. Nobody rewrites that service. The priest is gone. The taboo remains. You cannot test it without feeling like you are vandalizing something.
+- **Orphaned why.** "We always do it this way." The checklist survived. The original reason did not. Maybe the vendor is gone. Maybe the scale is different. Maybe the risk that created the rule is gone.
+- **Cited authority.** "He said so." A name ends the discussion. The name is doing the work a reason should do.
+- **Fossil process.** "We still have this meeting." A weekly call, a two-stage approval, a branching strategy. It made sense in their constraints: their team size, their incident, their regulator. The world moved. The process did not.
+- **Taboo without a priest.** "We don't do that here." Nobody ships on Fridays. Nobody talks to that customer. Nobody rewrites that service. The priest is gone. The taboo remains. You cannot test it without feeling like you are vandalizing something.
 
 A person who left can leave a constraint that still saves you. Ghost debt is not an argument for deleting history. It is an argument for noticing when history is still voting, and whether anyone present can recast that vote.
 

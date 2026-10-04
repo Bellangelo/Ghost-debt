@@ -102,9 +102,9 @@ If you want your judgment to last: would this still make sense if nobody could a
 
 If you live with someone else's ghost: whose name still ends debates? Which rules have a name and no owner? What would we have to know to retire this, and do we still know it?
 
-I would not turn this into a program. One pass over the decisions that still have a person in them is enough. Keep it, because the fence is still doing work, and now it has an owner. Rewrite the why, because the fence is useful and the original reason is gone. Retire it, because the constraint left with the person.
+Then the decision has three honest endings. Keep it, and give it a living owner. Write the why, if the fence is still useful and the original reason is gone. Or retire it, if the constraint left with the person.
 
-That pass needs a name, because otherwise people start deleting. I call the pass an exorcism. An exorcism here is naming a ghost, not casting it out. You collect candidates. A living person answers whether each one is ghost debt, leftover on purpose, or something that needs a why.
+I call looking for these leftovers an exorcism. You name the ghost. You do not cast it out. You collect candidates. Someone who still works here says whether each one is ghost debt, leftover on purpose, or something that needs a why.
 
 - Is this still required? If yes, what is the why, and who owns it now?
 - If we stopped doing the ritual, what would break?
